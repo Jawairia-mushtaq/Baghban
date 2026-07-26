@@ -245,7 +245,31 @@ Preview the production build.
 ```bash
 npm run preview
 ```
+# Known Issues
 
+The application is fully functional; however, the AI chatbot has a few limitations that are planned to be addressed in future updates.
+
+- Occasionally provides delayed responses due to API latency.
+- May generate less accurate answers for very specific or uncommon plant-related queries.
+- Does not retain conversation history between sessions.
+- Error handling for network interruptions can be improved.
+
+---
+
+# Future Improvements
+
+The following enhancements are planned for future releases:
+
+- Improve chatbot response accuracy using a more advanced AI model.
+- Add conversation memory for better contextual responses.
+- Integrate plant disease identification using image recognition.
+- Enable users to upload photos of plants for AI diagnosis.
+- Expand the plant database with additional species.
+- Add personalized care reminders and notifications.
+- Implement offline access for plant information.
+- Add user profiles and favorite plants.
+- Support more regional languages.
+- Improve chatbot performance and response speed.
 ---
 
 # License
