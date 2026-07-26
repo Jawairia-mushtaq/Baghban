@@ -155,10 +155,6 @@ Guidelines:
 
 ```text
 Baghban/
-│
-├── assets/
-│   └── .aistudio/
-│
 ├── screenshots/
 │   ├── chatbot.png
 │   ├── home.png
