@@ -1,0 +1,6 @@
+{
+  "name": "Baghban",
+  "description": "Baghban - An intelligent, bilingual botanical companion with AI plant health scanner, interactive care guides, watering schedules, and live AI garden assistant.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

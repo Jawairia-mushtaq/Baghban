@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Baghban - Smart Garden Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+Arabic:wght@300..700&display=swap" rel="stylesheet" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .fill-icon {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      /* Custom Organic Mask from HTML specs */
+      .organic-mask {
+        clip-path: url(#organic-blob);
+      }
+      /* Scrollbar hiding */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f5fced] text-[#171d14] dark:bg-[#1a1c19] dark:text-[#ecf3e4] min-h-screen antialiased selection:bg-[#a3f69c] selection:text-[#002204]">
+    <!-- SVG Organic Blob Definition for masking plant images -->
+    <svg class="absolute -top-10 -left-10 w-0 h-0 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="organic-blob" clipPathUnits="objectBoundingBox">
+          <path d="M0.117,0.301 C0.021,0.485,0,0.672,0.065,0.826 C0.155,1,0.435,1,0.674,0.923 C0.854,0.865,1,0.738,1,0.529 C1,0.307,0.854,0.113,0.658,0.038 C0.489,-0.028,0.22,0.104,0.117,0.301"></path>
+        </clipPath>
+      </defs>
+    </svg>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
