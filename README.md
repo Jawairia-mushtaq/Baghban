@@ -110,7 +110,7 @@ Guidelines:
 
 ## Home Screen
 
-![screenshots/home.png](Screenshots/home.png)
+![Home screen](Screenshots/home.png)
 
 ```text
 /screenshots/home.png
