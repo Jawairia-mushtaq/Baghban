@@ -151,19 +151,40 @@ Guidelines:
 # Project Structure
 
 ```text
+# Project Structure
+
+```text
 Baghban/
 │
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.tsx
-│   └── main.tsx
+├── assets/
+│   └── .aistudio/
 │
+├── screenshots/
+│   ├── chatbot.png
+│   ├── home.png
+│   ├── plant_details.png
+│   └── reminder.png
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── types.ts
+│
+├── .env.example
+├── .gitattributes
+├── .gitignore
+├── bun.lock
+├── index.html
+├── metadata.json
 ├── package.json
-├── vite.config.ts
-└── README.md
+├── README.md
+├── server.ts
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ---
